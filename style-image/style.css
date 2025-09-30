@@ -109,7 +109,9 @@ span {
 /* section three */
 .section-3{
     width: 100%;
-    margin-top: 18px;
+    height: 134px;
+
+    margin-top: 99px;
 }
 .text{
     text-align: center;
@@ -121,18 +123,24 @@ span {
 }
 .parts{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 23px;
 }
 /* End section three */
 /* section four */
 .section-4{
     width: 100%;
-    height: 490px;
+    height: 365px;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 58px;
+}
+.left-1 {
+    margin-left: 52px;
+}
+.right-1 {
+    margin-right: 30px;
 }
 /* End section-4 */
 /* section five */
@@ -140,13 +148,11 @@ span {
     width: 100%;
     background-color: #eee;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-evenly;
 }
 
 .r-1{
     display: flex;
-    margin: 30px;
 }
 .r-1 h2{
     position: relative;
