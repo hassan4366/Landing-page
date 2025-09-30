@@ -131,18 +131,8 @@ span {
     width: 100%;
     height: 490px;
     display: flex;
-    margin-top: 43px;
-    justify-content: space-evenly;
-}
-.right-1{
-    margin-right: 65px;
-}
-.section-4 h2 {
-    font-size: 35px;
-    color: rgb(54, 48, 48);
-}
-.left-1 {
-    margin-left: 87px;
+    justify-content: space-around;
+    align-items: center;
 }
 /* End section-4 */
 /* section five */
@@ -156,6 +146,7 @@ span {
 
 .r-1{
     display: flex;
+    margin: 30px;
 }
 .r-1 h2{
     position: relative;
@@ -168,6 +159,7 @@ span {
 }
 .r-2{
     display: flex;
+    margin: 30px;
 }
 .r-2 h2{
     position: relative;
@@ -180,8 +172,38 @@ span {
 }
 .r-3{
     display: flex;
+    margin: 30px;
 }
 .r-3 h2{
     position: relative;
     left: 20px;
+}
+.r-3 p{
+    position: relative;
+    top: 35px;
+    right: 50px;
+}
+.r-4{
+    display: flex;
+    margin: 30px;
+}
+.r-4 h2{
+    position: relative;
+    left: 20px;
+}
+.r-4 p{
+    position: relative;
+    top: 35px;
+    right: 80px;
+}
+/* End section five */
+/* section-6 */
+.section-6{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-3{
+    margin-top: 20px;
 }
