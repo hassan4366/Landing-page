@@ -138,16 +138,31 @@ span {
 .r-1{
     display: flex;
 }
+.r-1 h2{
+    position: relative;
+    left: 15px;
+}
 .r-1 p{
     position: relative;
     top: 35px;
-    right: 100px;
+    right: 90px;
 }
 .r-2{
     display: flex;
 }
+.r-2 h2{
+    position: relative;
+    left: 20px;
+}
 .r-2 p{
     position: relative;
     top: 35px;
-    right: 100px;
+    right: 65px;
+}
+.r-3{
+    display: flex;
+}
+.r-3 h2{
+    position: relative;
+    left: 20px;
 }
