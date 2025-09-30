@@ -105,10 +105,10 @@ span {
 /* section three */
 .section-3{
     width: 100%;
+    margin-top: 50px;
 }
 .text{
     text-align: center;
-    margin-top: 50px;
 }
 .parts{
     display: flex;
@@ -134,7 +134,10 @@ span {
     justify-content: space-around;
     align-items: center;
 }
-
+.right-2-1{
+    position: relative;
+    left: 100px;
+}
 .r-1{
     display: flex;
     margin: 30px;
@@ -160,6 +163,10 @@ span {
     position: relative;
     top: 35px;
     right: 65px;
+}
+.right-2-2{
+    position: relative;
+    right: 100px;
 }
 .r-3{
     display: flex;
@@ -194,6 +201,7 @@ span {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 50px;
 }
 .left-3{
     margin-top: 20px;
