@@ -122,8 +122,8 @@ span {
     width: 100%;
     height: 490px;
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-around;
 }
 /* End section-4 */
 /* section five */
