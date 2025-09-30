@@ -30,7 +30,7 @@ a:hover {
 .btn-nav{
     position: relative;
     padding: 15px 11px;
-    background-color: rgb(17, 199, 17);
+    background-color: #43A046;
     border: none;
     color: white;
 }
@@ -39,7 +39,7 @@ i{
     padding: 14.4px 15px;
     color: white;
     border: none;
-    background-color: rgb(17, 199, 17);
+    background-color: #43A046;
 }
 i:hover{
     background-color: rgb(85, 219, 85);
@@ -70,14 +70,14 @@ p{
     color: rgb(54, 54, 54);
 }
 span {
-    color: rgb(17, 199, 17);
+    color: #43A046;
 }
 .btn-left{
     padding: 12px 19px;
     border-radius: 4px;
     border: none;
     color: white;
-    background-color: rgb(17, 199, 17);
+    background-color: #43A046;
     margin-top: 12px;
 }
 .btn-left:hover{
@@ -88,4 +88,61 @@ span {
     margin-right: 155px;
 }
 /* End style section-1 */
-
+/* section-two */
+.section-2{
+    width: 100%;
+}
+.top{
+    text-align: center;
+    margin-top: 50px;
+}
+.img{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+/* End section two */
+/* section three */
+.section-3{
+    width: 100%;
+}
+.text{
+    text-align: center;
+    margin-top: 50px;
+}
+.parts{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 50px;
+}
+/* End section three */
+/* section four */
+.section-4{
+    width: 100%;
+    height: 490px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* End section-4 */
+/* section five */
+.section-5{
+    width: 100%;
+    background-color: #eee;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.r-1{
+    display: flex;
+}
+.r-1 p{
+    position: relative;
+    top: 35px;
+    right: 100px;
+}
+.r-1 p h2{
+    position: relative;
+    left: 20px;
+}
