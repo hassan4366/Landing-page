@@ -29,7 +29,7 @@ a:hover {
 }
 .btn-nav{
     position: relative;
-    padding: 15px 11px;
+    padding: 14.8px 11px;
     background-color: #43A046;
     border: none;
     color: white;
@@ -92,23 +92,32 @@ span {
 .section-2{
     width: 100%;
 }
+.section-2 h2{
+    font-size: 31px;
+    color: rgb(54, 54, 54);
+}
 .top{
     text-align: center;
     margin-top: 50px;
 }
 .img{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 60px;
 }
 /* End section two */
 /* section three */
 .section-3{
     width: 100%;
+    margin-top: 18px;
 }
 .text{
     text-align: center;
     margin-top: 50px;
+}
+.section-3 h2{
+    font-size: 35px;
+    color: rgb(116, 115, 115);
 }
 .parts{
     display: flex;
@@ -122,8 +131,18 @@ span {
     width: 100%;
     height: 490px;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    margin-top: 43px;
+    justify-content: space-evenly;
+}
+.right-1{
+    margin-right: 65px;
+}
+.section-4 h2 {
+    font-size: 35px;
+    color: rgb(54, 48, 48);
+}
+.left-1 {
+    margin-left: 87px;
 }
 /* End section-4 */
 /* section five */
