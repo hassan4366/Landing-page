@@ -187,3 +187,14 @@ span {
     top: 35px;
     right: 80px;
 }
+/* End section five */
+/* section-6 */
+.section-6{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-3{
+    margin-top: 20px;
+}
