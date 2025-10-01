@@ -223,7 +223,8 @@ span {
 
 /* section-8 */
 .section-8{
-    margin-top: 31px;
+    margin-top: 15px;
+    margin-bottom: 40px;
 }
 .top {
     text-align: center;
@@ -265,8 +266,8 @@ span {
 
 .overlay h3 {
     margin: 0;
-    font-size: 16px;
-    line-height: 1.4;
+    font-size: 17px;
+    line-height: 1.6;
     color: #333;
 }
 
