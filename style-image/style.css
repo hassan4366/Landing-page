@@ -3,6 +3,10 @@ body{
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
+body::selection{
+    background-color: #43A046;
+    color: white;
+}
 /* style navbar */
 .nav {
     width: 100%;
