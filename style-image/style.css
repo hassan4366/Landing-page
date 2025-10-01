@@ -210,8 +210,8 @@ span {
 .buttom-photo i {
     color: #43A046;
     background-color: #eee;
-    margin-left: 666px;
-    margin-top: 11px;
+    margin-left: 667px;
+    margin-top: 10px;
 }
 .buttom-photo {
     display: flex;
@@ -221,3 +221,64 @@ span {
 }
 /* End section-7 */
 
+/* section-8 */
+.section-8{
+    margin-top: 31px;
+}
+.top {
+    text-align: center;
+}
+.top h1{
+    font-size:  36px;
+}
+.main{
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card {
+    position: relative;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.card img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    width:242px;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    text-align: center;
+    background: rgba(255,255,255,0.85);
+    padding: 16px;
+    border-radius: 8px;
+    transition: transform 0.25s ease;
+}
+
+.overlay h3 {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #333;
+}
+
+.overlay a {
+    display: block;
+    margin-top: 8px;
+    text-decoration: none;
+    color: #2aa87a;
+    font-weight: bold;
+}
+
+.card:hover .overlay,
+.card:active .overlay {
+    transform: translate(-50%, 14%); /* ينزل تحت شوية */
+}
